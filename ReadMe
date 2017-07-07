@@ -1,6 +1,6 @@
 Aplikacja służy do zapisywania wyników z biegów i dzielenia się nimi ze znajomymi.
 Zalogować do aplikacji można się np kontem użytkownika o danych : (pesel: 1, Imie:Usain, Nazwisko:Bolt).
-W aplikajcji istnieją sekcje:
+W aplikacji istnieją sekcje:
   1)World Rank - gdzie można podejrzeć wyniki wszystkich użytkowników, 
   2)Friends Rank - gdzie można podejrzeć wyniki tylko znajomych,
   3)NearBy Running(To funkcja jeszcze nie dostępna) - tutaj można będzie podejrzeć biegi zaplanowane przez nas bądź naszych znajomych 
