@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_new_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.skiline11.pierwszaaplikacja.AddNewResult">
+
+
+    <TextView
+        android:text="Add New Result"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:textSize="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/addNewResult"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"/>
+
+    <TextView
+        android:text="choose distance :"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chooseDistance"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/date"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:text="1500m"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button100m"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button1500m" />
+
+    <Button
+        android:text="5 000m"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button800m"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button5000m" />
+
+    <Button
+        android:text="Maraton"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button10000m"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/buttonMaraton" />
+
+    <Button
+        android:text="800m"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button800m"
+        android:layout_alignBaseline="@+id/button100m"
+        android:layout_alignBottom="@+id/button100m"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="100m"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button100m"
+        android:layout_below="@+id/chooseDistance"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:visibility="gone"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/result1"
+        android:layout_above="@+id/buttonAdd"
+        android:layout_toLeftOf="@+id/time1"
+        android:layout_toStartOf="@+id/time1"
+        android:layout_marginRight="9dp"
+        android:layout_marginEnd="9dp" />
+
+    <Button
+        android:text="10 000m"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10000m"
+        android:layout_below="@+id/button1500m"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="enter your result"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterYourResult"
+        android:layout_below="@+id/buttonMaraton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp" />
+
+    <Button
+        android:text="Add"
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:id="@+id/buttonAdd"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:visibility="gone"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/result3"
+        android:layout_above="@+id/buttonAdd"
+        android:layout_toLeftOf="@+id/time3"
+        android:layout_toStartOf="@+id/time3"
+        android:layout_marginRight="9dp"
+        android:layout_marginEnd="9dp" />
+
+    <TextView
+        android:visibility="gone"
+        android:text="minut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time2"
+        android:layout_alignBaseline="@+id/result3"
+        android:layout_alignBottom="@+id/result3"
+        android:layout_toLeftOf="@+id/result3"
+        android:layout_toStartOf="@+id/result3"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp" />
+
+    <EditText
+        android:visibility="gone"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/result2"
+        android:layout_above="@+id/buttonAdd"
+        android:layout_toLeftOf="@+id/time2"
+        android:layout_toStartOf="@+id/time2"
+        android:layout_marginRight="9dp"
+        android:layout_marginEnd="9dp"/>
+
+    <TextView
+        android:text="godzin"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time1"
+        android:layout_below="@id/enterYourResult"
+        android:layout_alignBaseline="@+id/result3"
+        android:layout_alignBottom="@+id/result3"
+        android:layout_toLeftOf="@+id/result2"
+        android:layout_toStartOf="@+id/result2"
+        android:layout_marginRight="9dp"
+        android:layout_marginEnd="9dp"/>
+
+    <TextView
+        android:text="sekund"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time3"
+        android:layout_alignBaseline="@+id/result3"
+        android:layout_alignBottom="@+id/result3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="9dp"
+        android:layout_marginEnd="9dp"/>
+
+    <TextView
+        android:text="Choosen data"
+        android:gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/date"
+        android:layout_below="@+id/chooseDate"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="Choose date"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/chooseDate"
+        android:layout_below="@+id/addNewResult"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

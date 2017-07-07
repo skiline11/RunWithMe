@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">PierwszaAplikacja</string>
+    <string name="title_activity_world_rank">WorldRank</string>
+    <string name="title_activity_log_in">LogIn</string>
+    <string name="title_activity_choose_distance_panel">ChooseDistancePanel</string>
+    <string name="title_activity_choose_distance">chooseDistance</string>
+</resources>

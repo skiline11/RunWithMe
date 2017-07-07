@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_choose_distance"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.skiline11.pierwszaaplikacja.ChooseDistance">
+
+    <TextView
+        android:text="World Rank"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:textSize="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/panelTitle"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"/>
+
+    <Button
+        android:text="100m Run"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/panelTitle"
+        android:id="@+id/button100m"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="800m Run"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/panelTitle"
+        android:id="@+id/button800m"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="1500m Run"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/button100m"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button1500m" />
+
+    <Button
+        android:text="5000m Run"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:id="@+id/button5000m"
+        android:layout_below="@+id/button800m"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="10 000m Run"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/button1500m"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/button10000m" />
+
+    <Button
+        android:text="Marathon"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/button5000m"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/buttonMaraton" />
+
+</RelativeLayout>

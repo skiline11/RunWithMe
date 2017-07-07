@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context="com.example.skiline11.pierwszaaplikacja.MainMenu">
+
+    <Button
+        android:text="World Rank"
+        android:layout_width="180dp"
+        android:layout_height="125dp"
+        android:id="@+id/worldRank"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="goToWorldRank"/>
+
+    <Button
+        android:text="Friends Rank"
+        android:layout_width="180dp"
+        android:layout_height="125dp"
+        android:id="@+id/friendRank"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Nearby Running"
+        android:layout_width="180dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/worldRank"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/nearbyRunning" />
+
+    <Button
+        android:text="Plan New Running"
+        android:layout_width="180dp"
+        android:layout_height="125dp"
+        android:id="@+id/planNewRunning"
+        android:layout_below="@+id/friendRank"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="Your Results"
+        android:layout_width="180dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/nearbyRunning"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/yourResults" />
+
+    <Button
+        android:text="Add New Result"
+        android:layout_width="180dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/planNewRunning"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/addNewResults" />
+
+    <Button
+        android:text="Add New Friends"
+        android:layout_width="360dp"
+        android:layout_height="125dp"
+        android:layout_below="@+id/yourResults"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/addNewFriends" />
+
+
+</RelativeLayout>
